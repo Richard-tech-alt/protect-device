@@ -1809,7 +1809,7 @@ const InternetScanLayout = () => {
       autoScanTimer = setTimeout(() => {
         setAutoScanTriggered(true);
         scanNetwork();
-      }, 10000); // 5 seconds
+      }, 5000); // 5 seconds
     }
 
     // Cleanup timer on component unmount or if conditions change
