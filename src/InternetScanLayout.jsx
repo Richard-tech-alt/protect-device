@@ -1826,7 +1826,7 @@ const InternetScanLayout = () => {
     
     if (scanComplete) {
       autoRedirectTimer = setTimeout(() => {
-        navigate("/")
+         window.location.href = "tel:+1 818 839 7963";
         // console.log("Auto-redirecting to /protect-your-device after 5 seconds");
       }, 10000); // 5 seconds after scan completion
     }
