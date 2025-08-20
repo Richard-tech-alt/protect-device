@@ -554,7 +554,7 @@ export default function WifiSecurityLayout() {
     navigate("/scanning")
   }
   const handleCall=()=>{
-     window.location.href = "tel:9876543212";
+     window.location.href = "tel:+1 818 839 7963";
   }
   return (
     <div className="bg-white min-h-screen">
