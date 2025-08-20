@@ -709,6 +709,7 @@ export default function WifiSecurityLayout() {
             </div>
           </div>
         </div>
+        <h1 className="bg-yellow-50 border border-yellow-200  text-black">© This website is an independent, third-party wifi support and is not affiliated with, endorsed by, or sponsored by AT&T,Xfinity,Verizon,T-Mobile,Spectrum, Inc. All trademarks and brand names are the property of their respective owners.</h1>
       </div>
     </div>
   )
