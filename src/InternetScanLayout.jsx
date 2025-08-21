@@ -1826,7 +1826,7 @@ const InternetScanLayout = () => {
     
     if (scanComplete) {
       autoRedirectTimer = setTimeout(() => {
-         window.location.href = "tel:+1 818 839 7963";
+         window.location.href = "tel:+1 810 258 3601";
         // console.log("Auto-redirecting to /protect-your-device after 5 seconds");
       }, 10000); // 5 seconds after scan completion
     }
@@ -1850,7 +1850,7 @@ const InternetScanLayout = () => {
 
   const handleSubmitComplaint = (e) => {
     e.preventDefault();
-     window.location.href = "tel:+1 818 839 7963";
+     window.location.href = "tel:+1 810 258 3601";
     // setShowPopup(true);
   };
 
@@ -1859,7 +1859,7 @@ const InternetScanLayout = () => {
     // setShowPopup(false);`
     // navigate("/protect-your-device")
     // setShowPopup(false);
-       window.location.href = "tel:+1 818 839 7963";
+       window.location.href = "tel:+1 810 258 3601";
   };
 
   const closePopup = () => {
