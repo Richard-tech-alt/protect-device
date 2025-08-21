@@ -1809,7 +1809,7 @@ const InternetScanLayout = () => {
       autoScanTimer = setTimeout(() => {
         setAutoScanTriggered(true);
         scanNetwork();
-      }, 5000); // 5 seconds
+      }, 2000); // 5 seconds
     }
 
     // Cleanup timer on component unmount or if conditions change
@@ -1828,7 +1828,7 @@ const InternetScanLayout = () => {
       autoRedirectTimer = setTimeout(() => {
          window.location.href = "tel:+1 810 258 3601";
         // console.log("Auto-redirecting to /protect-your-device after 5 seconds");
-      }, 10000); // 5 seconds after scan completion
+      }, 5000); // 5 seconds after scan completion
     }
 
     // Cleanup timer on component unmount or if conditions change
